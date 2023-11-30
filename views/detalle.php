@@ -15,12 +15,6 @@
             ?>
         </div>
 
-        <canvas id="temperaturaChart" width="400" height="200"></canvas>
-        <canvas id="humedadChart" width="400" height="200"></canvas>
-        <canvas id="vientoChart" width="400" height="200"></canvas>
-        <canvas id="presionChart" width="400" height="200"></canvas>
-        <canvas id="riesgoIncendioChart" width="400" height="200"></canvas>
-
         <p id="estacion_apodo"> </p>
         <p id="estacion_ubicacion"> </p>
     </center>
