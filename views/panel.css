@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #abaed9;
+}
+
+center {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#station-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.station {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.station:hover {
+  background-color: #5ec1a1;
+  box-shadow: 0 9px 13px rgba(0, 0, 0, 0.5);
+}
+
+.station-info {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
