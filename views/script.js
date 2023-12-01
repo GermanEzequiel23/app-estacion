@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             <p>Visitas: ${estacion[5]}</p>`;
 
         divEstacion.addEventListener("click", () => {
-            window.location.href = `detalle.php?chipid=${estacion[0]}`;
+            window.location.href = `detalle.php?chipid=${estacion[1]}`;
         });
         listado.appendChild(divEstacion);
     });
