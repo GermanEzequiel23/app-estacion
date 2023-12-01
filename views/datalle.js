@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const response = await fetch(`../estaciones.php`);
     const data = await response.json();
 
-    const estacionSeleccionada = data.find(estacion => estacion[0] === chipid);
+    const estacionSeleccionada = data.find(estacion => estacion[1] === chipid);
 
     estacion_apodo.textContent = `Apodo: ${estacionSeleccionada[3]}`;
     estacion_ubicacion.textContent = `Ubicación: ${estacionSeleccionada[2]}`;
